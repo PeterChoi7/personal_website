@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peter Choi</title>
+    <title>Peter Choi's Personal Website</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/0b63bf4e1e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="navbar">
         <div class="navbar__container">
-            <a href="/" id="navbar__logo">PETER CHOI</a>
+            <a href="/" id="navbar__logo">
+                <i class="fa-solid fa-spider" style="padding-right: 20px"></i></i></a>
             <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -21,16 +23,48 @@
                     <a href="/" class="navbar__links">HOME</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="about_me.html" class="navbar__links">ABOUT ME</a>
+                    <a href="about_me.html" class="navbar__links">ABOUT</a>
                 </li>
                 <li class="navbar__item">
                     <a href="projects.html" class="navbar__links">PROJECTS</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="experience.html" class="navbar__links">EXPERIENCE</a>
+                    <a href="contact.html" class="navbar__links">CONTACT</a>
                 </li>
             </ul>
         </div>
     </nav>
+    <!-- Hero Section -->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>PETER CHOI</h1>
+                <p>Your friendly neighborhood 
+                    software developer. I am currently majoring in Computer Science at UC Berkeley with a minor in Data Science.
+                     I spend my days (and often nights) painting the Internet canvas with 
+                    PROJECTS and lines of code, turning zeroes and ones into 
+                    immersive, interactive experiences, Bona fide photochromic
+                     LENS enthusiast - sunlight or indoors, I've got it covered. 
+                     I tread the path of minimalism, finding beauty in simplicity 
+                     and order. When I'm not crafting beautiful web experiences, you can find 
+                     me reading ARTICLES or swaying to the rhythm of Pop Music & Jazz, losing 
+                     myself in the captivating flow of melodies. anyways you can CONTACT ME
+                </p>
+                <a href="about_me.html" class="navbar__links">
+                    <p>
+                        See more
+                    </p>
+                    <img src="images/icon.svg" alt="pic" id="icon">
+                    <div class="arrow">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
